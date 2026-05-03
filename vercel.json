@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "public": true,
+  "buildCommand": "npm run build:prod",
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "dist/**",
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/api"
+    }
+  ]
+}
