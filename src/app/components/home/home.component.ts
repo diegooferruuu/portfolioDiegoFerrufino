@@ -5,7 +5,7 @@ import { ExperienceComponent } from '../experience/experience.component';
 import { ProjectsComponent } from '../projects/projects.component';
 import { SkillsComponent } from '../skills/skills.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ContactComponent } from '../contact/contact.component';
+// import { ContactComponent } from '../contact/contact.component';
 
 @Component({
   selector: 'app-home',
@@ -17,7 +17,7 @@ import { ContactComponent } from '../contact/contact.component';
     SkillsComponent,
     ExperienceComponent,
     ProjectsComponent,
-    ContactComponent,
+    // ContactComponent,
     ReactiveFormsModule,
     FormsModule,
   ]

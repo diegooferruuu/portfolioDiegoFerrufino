@@ -37,11 +37,11 @@ export class AppComponent implements OnInit {
 
     // Set default SEO meta tags
     this.seoService.updateMetaTags({
-      title: 'Darshan Bhuva | Full-Stack Developer | Angular & .NET Expert | Portfolio',
+      title: 'Diego Ferrufino | Full-Stack Developer |Full Stack Developer | Portfolio',
       description: 'Experienced Full-Stack Developer specializing in Angular, .NET, TypeScript, and modern web technologies. View my portfolio showcasing scalable web applications, API development, and innovative solutions.',
-      url: 'https://darshanbhuva.vercel.app/',
-      image: 'https://darshanbhuva.vercel.app/assets/logo.jpg',
-      keywords: 'Darshan Bhuva, Full-Stack Developer, Angular Developer, .NET Developer, TypeScript Expert, Web Development, JavaScript, Node.js, Software Engineer, Frontend Developer, Backend Developer, Portfolio'
+      url: 'https://portfolio-diego-ferrufino.vercel.app/',
+      image: 'https://portfolio-diego-ferrufino.vercel.app/assets/logo.jpg',
+      keywords: 'Diego Ferrufino, Full-Stack Developer, Angular Developer, .NET Developer, TypeScript Expert, Web Development, JavaScript, Node.js, Software Engineer, Frontend Developer, Backend Developer, Portfolio'
     });
 
     // Ensure canonical URL is set for current page

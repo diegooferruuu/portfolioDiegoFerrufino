@@ -17,10 +17,10 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
     this.seoService.updateMetaTags({
-      title: 'Contact – Darshan Bhuva',
-      description: 'Get in touch with Darshan Bhuva for collaboration opportunities, project inquiries, or professional discussions. Contact a skilled Full-Stack Developer specializing in Angular and .NET.',
-      url: 'https://darshanbhuva.vercel.app/contact',
-      keywords: 'Contact Darshan Bhuva, Hire Full-Stack Developer, Angular Developer Contact, .NET Developer Hire, Web Development Services, Project Collaboration'
+      title: 'Contact – Diego Ferrufino',
+      description: 'Get in touch with Diego Ferrufino for collaboration opportunities, project inquiries, or professional discussions. Contact a skilled Full-Stack Developer specializing in Angular and .NET.',
+      url: 'https://portfolio-diego-ferrufino.vercel.app/contact',
+      keywords: 'Contact Diego Ferrufino, Hire Full-Stack Developer, Angular Developer Contact, .NET Developer Hire, Web Development Services, Project Collaboration'
     });
   }
 }

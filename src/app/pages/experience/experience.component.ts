@@ -18,10 +18,10 @@ export class ExperienceComponent implements OnInit {
 
   ngOnInit(): void {
     this.seoService.updateMetaTags({
-      title: 'Experience – Darshan Bhuva',
-      description: 'Explore Darshan Bhuva\'s professional experience as a Full-Stack Developer. View detailed work history, technical skills, and career achievements in Angular, .NET, and web development.',
-      url: 'https://darshanbhuva.vercel.app/experience',
-      keywords: 'Darshan Bhuva Experience, Full-Stack Developer Career, Angular Developer Jobs, .NET Developer Experience, Web Development Skills, Professional Background'
+      title: 'Experience – Diego Ferrufino',
+      description: 'Explore Diego Ferrufino\'s professional experience as a Full-Stack Developer. View detailed work history, technical skills, and career achievements in Angular, .NET, and web development.',
+      url: 'https://portfolio-diego-ferrufino.vercel.app/experience',
+      keywords: 'Diego Ferrufino Experience, Full-Stack Developer Career, Angular Developer Jobs, .NET Developer Experience, Web Development Skills, Professional Background'
     });
   }
 }
